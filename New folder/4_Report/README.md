@@ -1,12 +1,10 @@
-# Seat Heating System
+# Wiper Control System
 ## Introduction
-Heating method is generally used to regulate the temperature. The system has the option to turn on the heater. The temperature sensor continues to monitor the temperature and transmits the analogue value to the microcontroller. Through serial communication, the microcontroller processes the temperature sensor's analogue input and outputs a temperature value. The control system's activities are carried out entirely on a microcontroller known as the Atmega328. The heat control system's functionality is coded in embedded C, and the work is demonstrated using simulation in SimulIDE software.
+The concept of network of smart devices, otherwise whenmore things/objects connected to internet to sense thedevices and interchange the sensed data using WirelessSensor Networks (WSN), using corrective and detectiveprotocols is termed as Internet of Things [1]. Cloud com-puting is one of the system resources specially designed tostore data with very less management by the user. Com-bination of IoT and cloud technology work towards toimprove the efﬁciency, security, managing and accessingof data. Cloud computing makes IoT more secure protocolwith preventive authentication and encryption protocols.Using cloud computing user can easily add the objects tothe internet with less hardware and software [2]. Cloudtechnology has three different types of platforms likeSoftware as a Service (SaaS), Platform as a Service (PaaS)and Infrastructure as a Service (IaaS) as shown in Fig. 1.These services can be accessed in public, private or hybridtype of cloud. CloudIoT gives ﬂexibility, scalability, pri-vacy and efﬁcient use of resources to the user. CloudIoTtechnology acts like a gateway between the real world anddigital world. In this work, CloudIoT application using(PaaS) is developed for automated windshield wipercontrolsystem.
 ## Research
--   Car seat heating was first commercialised in Sweden about fifteen years ago. Seat heaters are now standard equipment or options on Saab, Volvo, Jaguar, BMW, Opel, and Mercedes vehicles, with acceptance and customer demand spreading throughout European markets. In Sweden, all passenger cars sold in the country must include electrical seat heating systems as standard equipment.
--   Seat heating system design is more complicated and sophisticated than one might think. Seat heating systems today are far more advanced than simple heating components like those found in household heating blankets and cushions.
--  A high level of human engineering goes into a properly designed seat heating system, which only supplies heat loss experienced by a person's body and only at the major contact points in the seat cushion.
+-   In todays automobile environment high end cars and cer-tain heavy goods transport vehicles are ﬁtted with expen-sive automatic windshield wipers where the maintenanceand troubleshooting posed major problems. In [5] devel-oped a system called Advanced Driver Assistance system(ADAS) using real time drop detection using CellularNeural Networks (CNN) and support vector machines(SVM) which assists the drivers snow, rainy and mistconditions to control the wiper speed. Article [6] presenteda wiper system based on Electrochemical rain sensor.
 ## Components Required
-### ATmega328
+### Ardiuno
 -   The ATmega328 is a single-chip microcontroller produced by Atmel and a member of the megaAVR series. It is based on the 8-bit Atmel AVR processor, which is complemented by flash memory and various peripherals. After programming, the controllers can work on their own, using power and clock speed quartz crystal.
 -   [Atmega328 PIN Diagram](https://user-images.githubusercontent.com/98877997/157062921-6d20c6dc-cb50-4b29-980f-2341730079fc.png)
 ### Temperature Sensor
@@ -23,9 +21,10 @@ Heating method is generally used to regulate the temperature. The system has the
 -   The lighting emitting diode is a p-n junction diode. It is a specially doped diode and made up of a special type of semiconductors. When the light emits in the forward biased, then it is called a light-emitting diode.
 ## Diagram
 ### Block Diagram
-![Block Diagram](https://user-images.githubusercontent.com/98877997/157211966-c143e397-3c2f-4677-9707-a5af926036b4.jpg)
+![Block-Diagram-Arduino-Based-Automatic-Wiper-Designed-Cars-Trucks](https://user-images.githubusercontent.com/101260690/168328227-5944fcf1-859b-46e6-8b4d-386fca10d9ce.jpg)
 ### Flow Chart
-![Flow Chart](https://user-images.githubusercontent.com/98877997/157211901-6dcf01e4-8674-4f1b-baf5-7402f562bc0a.jpg)
+![Flow-chart-as-a-logical-expression-of-the-Arduino-program-to-control-the-wiper](https://user-images.githubusercontent.com/101260690/168328675-abb76d09-e75c-4024-a2dd-3ab9a8630232.png)
+
 ## 4W's 1-H
 ### What
 In the winter, heating the seat can make cars much more comfortable. Heating system that raises the surface temperature of the automated seat to the comfort of the occupants.
