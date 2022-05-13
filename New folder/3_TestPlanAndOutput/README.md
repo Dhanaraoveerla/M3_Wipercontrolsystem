@@ -1,4 +1,4 @@
 ## High Level Test Plan
-![HLR](https://user-images.githubusercontent.com/98877997/157271831-86e75796-5ff4-48e4-8f5d-f332f0b9e08e.jpg)
+![HLR]![41870_2020_482_Fig3_HTML](https://user-images.githubusercontent.com/101260690/168325287-10a7a147-9bed-4828-81ed-465a59474786.png)
 ## Low Level Test Plan
-![LLR](https://user-images.githubusercontent.com/98877997/157275269-305c4b91-e699-4ea8-aae6-a2c2270cfc84.jpg)
+![LLR]![download](https://user-images.githubusercontent.com/101260690/168325724-6e5a12e5-118a-4bd0-a91a-90198f056758.jpg)
