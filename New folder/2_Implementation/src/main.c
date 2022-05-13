@@ -1,37 +1,47 @@
-/**
- * @file main.c
- * @author Vartik Vats
- * @brief 
- * @version 0.1
- * @date 2022-03-08
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-#include "case1.h"
-#include "case2.h"
-#include "case3.h"
-#include "case4.h"
+include <stdio.h>
+#include <stdlib.h>
 
-int main(void)
+int main()
 {
-    uint16_t temp;
-    
-    while(1)
+    int engine,wipersignal,pot;
+    char on,low,medium,fast,servmotor;
     {
-        if(case1_LED()==1)        //Check if both the switches are pressed
+    printf("engine state: ");
+    scanf("%d",&engine);
+    if(engine==1)
+    {while(1){
+        printf("wiper state: ");
+        scanf("%d",&wipersignal);
+        if(wipersignal==1)
         {
-           
-            TurnLED_ON();           
-            temp=case2_GetADC();     //Get the ADC value
-            case3_PWM(temp);         //PWM output based on temperature
-		    case4_USARTWrite(temp);  //To Serial monitor to print Temperature
+            printf("pot: ");
+            scanf("%d",&pot);
+            if(pot>100&&pot<250)
+            {
+                printf("wiper-speed = 25% \n");
+            }
+            else if(pot>250&&pot<500)
+            {
+                printf("wiper-speed = 50% \n");
+            }
+            else if(pot>=500)
+            {
+                printf("wiper-speed = 75% \n");
+            }
+            else
+            {
+                printf("no wiper movement\n");
+            }
         }
-        else  
+        else
         {
-            TurnLED_OFF();
-		    _delay_ms(200);
+            printf("switch on the wiper signal\n");
+        }
         }
     }
-    return 0;
-}
+        else
+        {
+            printf("switch on the engine\n");
+        }
+    }
+    }
