@@ -2,6 +2,8 @@
 -   Behavioural diagram
 -   Sequence diagram
 ## Block Diagram
-![Block Diagram](https://user-images.githubusercontent.com/98877997/157211966-c143e397-3c2f-4677-9707-a5af926036b4.jpg)
+![Block Diagram]![Block-diagram-of-the-windshield-wiper-system_Q640](https://user-images.githubusercontent.com/101260690/168233562-ecffccc1-35c3-40bf-a5bf-6327b7ea4773.jpg)
+
 ## Flow Chart
-![Flow Chart](https://user-images.githubusercontent.com/98877997/157211901-6dcf01e4-8674-4f1b-baf5-7402f562bc0a.jpg)
+![Flow Chart]![Automatic wiper control system](https://user-images.githubusercontent.com/101260690/168233649-a8c7cde4-a15e-446f-9775-a461dc96cc76.png)
+
